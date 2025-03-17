@@ -1,0 +1,153 @@
+body {
+    font-family: Nunito;
+    background-color: #fbf5dc;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    width: auto;
+    
+}
+
+.container {
+    padding: 0 90px;
+    margin: 0 auto;
+
+}
+
+.header {
+    height: 70px;
+    padding: 0 90px;
+    margin: 0 auto;
+}
+
+.header__list {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    gap: 20px;
+}
+
+.header__list-link:hover {
+    color: #ea8959;
+}
+
+.main {
+    background-color: #fcf8e7;
+    flex-grow: 1;
+}
+
+.main__wrapper {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.main__card {
+    justify-self: end;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main__image {
+    width: 350px
+}
+
+.main__info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main__heading {
+    font-family: "SourceSerif4", serif;
+    font-size: 24px;
+    color: #ea8959;
+}
+
+.main__title {
+    font-family: "SourceSerif4", serif;
+    font-size: 24px;
+    color: #ea8959;
+    border-left: 5px solid #c8ee78;
+    padding-left: 10px;
+}
+
+.main__paragraph {
+    margin-top: 20px;
+}
+
+.main__list {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.main__list-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main__list-item::before {
+    content: "";
+    display: block;
+    width: 7px;
+    height: 7px;
+    background-color: #ea8959;
+    transform: rotate(45deg);
+}
+
+.main__contacts-link {
+    padding-left: 10px;
+}
+
+.main__contacts-link:hover{
+    color: #ea8959;
+}
+
+.main__contacts-image {
+    fill: #c8ee78;
+}
+
+.main__contacts-paragraph {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    height: 50px;
+}
+
+.footer {
+    padding: 0 90px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer__link:hover {
+    color: #c8ee78;
+}
+
+.footer__span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer__span::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: #ea8959;
+    border-radius: 50%;
+    display: block;
+}
